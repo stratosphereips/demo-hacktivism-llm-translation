@@ -26,7 +26,7 @@ const MessageList = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await axios.get('/api/messages');
+        const response = await axios.get(`${window.location.origin}/api/messages.json`);
         setMessages(response.data);
       } catch (err) {
         setError('Failed to fetch messages.');
