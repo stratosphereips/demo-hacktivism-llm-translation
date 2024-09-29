@@ -1,0 +1,52 @@
+/* src/components/MessageList.css */
+
+.message-list {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@media (max-width: 600px) {
+  .message-list .MuiGrid-container {
+    flex-direction: column;
+  }
+
+  .message-list .MuiGrid-item {
+    max-width: 100%;
+  }
+}
+
+/* Styles for the Savings Highlight Card */
+.savings-card {
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  /*background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.savings-card .MuiTypography-h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.savings-card .MuiTypography-subtitle1 {
+  font-size: 1.1rem;
+}
+
+/* Progress Bar Styling */
+.message-list .MuiLinearProgress-root {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.message-list .MuiLinearProgress-barColorSecondary {
+  /*background-color: #1976d2;*/
+}
+
